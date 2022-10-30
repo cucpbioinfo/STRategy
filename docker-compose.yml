@@ -1,0 +1,28 @@
+version: '3'
+services: 
+    database:
+        image: 'mysql'
+        container_name: db
+        command: --init-file /data/application/init.sql
+        environment: 
+            MYSQL_ROOT_PASSWORD: 12345678
+            MYSQL_DATABASE: fgxbio2
+        volumes:
+            - ./init.sql:/data/application/init.sql
+    backend:
+        build: ./backend
+        restart: always
+        environment:
+            - fgxbio_app_jwtExpirationMs=3600000
+        ports:
+            - "8080:8080"
+    frontend:
+        build:
+            context: ./frontend
+            args:
+                REACT_APP_BACKEND_BASE_URL: http://34.142.212.25
+                REACT_APP_BACKEND_PORT: 8080
+        restart: always
+        ports:
+            - "80:80"
+        stdin_open: true

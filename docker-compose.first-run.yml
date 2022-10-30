@@ -1,0 +1,23 @@
+version: '3'
+services: 
+    database:
+        image: 'mysql'
+        container_name: db
+        command: --init-file /data/application/init.sql
+        environment: 
+            MYSQL_ROOT_PASSWORD: 12345678
+            MYSQL_DATABASE: fgxbio2
+        volumes:
+            - ./init.sql:/data/application/init.sql
+            - ./database/data/db:/var/lib/mysql
+    backend:
+        build: ./backend
+        restart: always
+        ports:
+            - "8080:8080"
+    frontend:
+        build: ./frontend
+        restart: always
+        ports:
+            - "80:80"
+        stdin_open: true

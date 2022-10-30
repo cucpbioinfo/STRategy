@@ -1,0 +1,14 @@
+.MangeProvinceRow {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.85);
+    font-variant: tabular-nums;
+    line-height: 1.5715;
+    list-style: none;
+    font-feature-settings: 'tnum', "tnum";
+    position: relative;
+    font-size: 14px;
+    background: #fff;
+    border-radius: 2px;
+}

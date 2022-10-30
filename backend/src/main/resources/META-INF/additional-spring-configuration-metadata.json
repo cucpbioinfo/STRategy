@@ -1,0 +1,29 @@
+{
+  "properties": [
+    {
+      "name": "fgxbio.app.jwtSecret",
+      "type": "java.lang.String",
+      "description": "A description for 'fgxbio.app.jwtSecret'"
+    },
+    {
+      "name": "fgxbio.app.jwtExpirationMs",
+      "type": "java.lang.String",
+      "description": "A description for 'fgxbio.app.jwtExpirationMs'"
+    },
+    {
+      "name": "fgxbio.app.jwtSecret",
+      "type": "java.lang.String",
+      "description": "A description for 'fgxbio.app.jwtSecret'"
+    },
+    {
+      "name": "fgxbio.app.jwtExpirationMs",
+      "type": "java.lang.String",
+      "description": "A description for 'fgxbio.app.jwtExpirationMs'"
+    },
+    {
+      "name": "file.upload-dir",
+      "type": "java.lang.String",
+      "description": "Description for file.upload-dir."
+    }
+  ]
+}

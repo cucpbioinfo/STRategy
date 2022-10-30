@@ -1,0 +1,13 @@
+export {default as ManageAllUser} from "./ManageAllUser";
+export {default as ManageLocus} from "./ManageLocus";
+export {default as ManageMap} from "./ManageMap";
+export {default as ManageNewUser} from "./ManageNewUser";
+export {default as ManageSeqAlign} from "./ManagePatternAlignment";
+export {default as UploadReferencePatterns} from "./UploadReferencePatterns";
+export {default as ManageRace} from "./ManageRace"
+export {default as ManageCoreLoci} from "./ManageCoreLoci";
+export {default as ManageStatisticProfile} from "./ManageStatisticProfile";
+export {default as ManageCountry} from "./ManageCountry"
+export {default as ManageProvinces} from "./ManageProvinces"
+export {default as EditProvinces} from "./EditProvinces"
+export {default as EditCalculationProfileSearch} from "./EditCalculationProfileSearch"
