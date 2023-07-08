@@ -1,0 +1,4 @@
+.label-color:hover {
+    border: 3px solid black;
+    filter: brightness(90%)
+}

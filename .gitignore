@@ -1,0 +1,61 @@
+frontend/node_modules
+frontend/.idea
+
+backend/node_modules
+backend/.idea
+
+######################
+# Intellij
+######################
+frontend/.idea/
+frontend/*.iml
+frontend/*.iws
+frontend/*.ipr
+frontend/*.ids
+frontend/*.orig
+frontend/classes/
+frontend/out/
+
+backend/.idea/
+backend/*.iml
+backend /*.iws
+backend/*.ipr
+backend/*.ids
+backend/*.orig
+backend/classes/
+backend/out/
+backend/target
+
+######################
+# Visual Studio Code
+######################
+frontend/.vscode/
+backend/.vscode/
+
+######################
+# Maven
+######################
+frontend/log/
+frontend/target/
+backend/log/
+backend/target/
+
+######################
+# Gradle
+######################
+frontend/.gradle/
+frontend/build/
+backend/.gradle/
+backend/build/
+
+######################
+# Package Files
+######################
+frontend/*.jar
+frontend/*.war
+frontend/*.ear
+frontend/*.db
+backend/*.jar
+backend/*.war
+backend/*.ear
+backend/*.db
