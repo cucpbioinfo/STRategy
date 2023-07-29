@@ -17,6 +17,10 @@ There are default usernames and passwords for accessing the system.
 
 ## How to install, run, and, shutdown (Background)
 
+###### Configuration
+
+* Please ensure to edit the backend URL in the docker-compose.yml file to match your host IP. You can set it in **services.frontend.build.args.REACT_APP_BACKEND_BASE_URL** (inside docker-compose.yml). By default, the backend URL points to the backend of our current showcase system (http://cucpbioinfo.me/). If you don't change this URL, the system you are deploying will connect to the backend of our showcase system instead.
+
 ###### Install and Run STRategy as background process.
 
 * Run command below.
