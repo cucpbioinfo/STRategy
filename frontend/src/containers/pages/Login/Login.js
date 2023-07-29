@@ -46,10 +46,6 @@ function Login(props) {
               name="login"
               className="login-container"
               onFinish={onFinish}
-              initialValues={{
-                username: "soncomqiq2",
-                password: "12345678"
-              }}
           >
             <Form.Item
                 name="username"
