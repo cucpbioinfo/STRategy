@@ -1,7 +1,5 @@
 # STRategy - an extensible software platform for managing and analyzing sequence-based short tandem repeats
 
-Deployed Link: http://cucpbioinfo.me/
-
 There are default usernames and passwords for accessing the system.
 
 | Username   | Password | Role                   |
